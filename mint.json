@@ -1,91 +1,87 @@
 {
   "$schema": "https://mintlify.com/schema.json",
-  "name": "Starter Kit",
+  "name": "help-sunsama",
   "logo": {
     "dark": "/logo/dark.svg",
     "light": "/logo/light.svg"
   },
   "favicon": "/favicon.svg",
   "colors": {
-    "primary": "#0D9373",
-    "light": "#07C983",
-    "dark": "#0D9373",
+    "primary": "#000000",
+    "light": "#f2f2f2",
+    "dark": "#000000",
     "anchors": {
-      "from": "#0D9373",
-      "to": "#07C983"
+      "from": "#000000",
+      "to": "#f2f2f2"
     }
   },
   "topbarLinks": [
     {
-      "name": "Support",
-      "url": "mailto:hi@mintlify.com"
+      "name": "Sign Up",
+      "url": "https://sunsama.com/start/signup"
     }
   ],
   "topbarCtaButton": {
-    "name": "Dashboard",
-    "url": "https://dashboard.mintlify.com"
+    "name": "Try for free",
+    "url": "https://sunsama.com/start/signup"
   },
-  "tabs": [
-    {
-      "name": "API Reference",
-      "url": "api-reference"
-    }
-  ],
+  "tabs": [],
   "anchors": [
-    {
-      "name": "Documentation",
-      "icon": "book-open-cover",
-      "url": "https://mintlify.com/docs"
-    },
-    {
-      "name": "Community",
-      "icon": "slack",
-      "url": "https://mintlify.com/community"
-    },
     {
       "name": "Blog",
       "icon": "newspaper",
-      "url": "https://mintlify.com/blog"
+      "url": "https://sunsama.com/blog"
     }
   ],
+  "modeToggle": {
+    "default": "dark"
+  },
   "navigation": [
     {
-      "group": "Get Started",
+      "group": "Views and Navigation",
       "pages": [
-        "introduction",
-        "quickstart",
-        "development"
+        "views-and-navigation/workspace-navigation"
       ]
     },
     {
-      "group": "Essentials",
+      "group": "Task Management",
       "pages": [
-        "essentials/markdown",
-        "essentials/code",
-        "essentials/images",
-        "essentials/settings",
-        "essentials/navigation",
-        "essentials/reusable-snippets"
+        "task-management/channels-and-contexts"
       ]
     },
     {
-      "group": "API Documentation",
+      "group": "Settings",
       "pages": [
-        "api-reference/introduction"
+        "settings/user-settings",
+        "settings/workspace-settings",
+        "settings/integrations-settings"
       ]
     },
     {
-      "group": "Endpoint Examples",
+      "group": "Daily Workflow",
       "pages": [
-        "api-reference/endpoint/get",
-        "api-reference/endpoint/create",
-        "api-reference/endpoint/delete"
+        "daily-workflow/evening-daily-planning",
+        "daily-workflow/daily-shutdown",
+        "daily-workflow/weekly-planning",
+        "daily-workflow/weekly-review"
+      ]
+    },
+    {
+      "group": "Getting Started",
+      "pages": [
+        "getting-started/setting-up-your-sunsama",
+        "getting-started/task-basics",
+        "getting-started/kanban-task-view",
+        "getting-started/tasks-vs-events-basics",
+        "getting-started/importing-and-creating-tasks",
+        "getting-started/task-rollover-and-recurring-tasks-the-basics"
       ]
     }
   ],
   "footerSocials": {
-    "x": "https://x.com/mintlify",
-    "github": "https://github.com/mintlify",
-    "linkedin": "https://www.linkedin.com/company/mintsearch"
+    "facebook": "https://www.facebook.com/sunsamahq",
+    "twitter": "https://twitter.com/sunsamahq",
+    "linkedin": "https://www.linkedin.com/company/sunsama/",
+    "instagram": "https://instagram.com/sunsamahq"
   }
 }
