@@ -1,0 +1,368 @@
+---
+title: "Accessing Settings"
+description: "Steps to access settings in Sunsama"
+---
+### Accessing Settings
+
+*   Go directly to [https://app.sunsama.com/settings](https://app.sunsama.com/settings)
+    
+*   Use the [Command Palette](/docs/command-palette)
+     `CMD+K` to search for settings
+*   Use the main dropdown in the app (in the top left corner):
+
+![](https://files.readme.io/9d9df7b-Screenshot_2023-02-17_at_2.32.46_PM.png)
+
+### General
+
+#### Time zone
+
+The timezone for your account. This is used across all devices.
+
+#### Time zone alert
+
+Show an alert when your timezone has changed. We recommend keeping this turned on.
+
+#### Time format
+
+How should times be displayed in Sunsama? You can chose to match the region of the device you're using, or manually set your time format to 24 hour format, or 12 hour AM/PM format. You will need to refresh Sunsama to reflect changes to this setting.
+
+#### Start of week
+
+Adjust your display of calendar based layouts to start weeks on Sunday or Monday.
+
+#### Count planned time as actual time
+
+Determines if your "planned" time on each task should be used as the "actual" time when there is no "actual" time value present.
+
+#### Task rollover position
+
+Determine if you'd like incomplete tasks to roll to the top of the next day's column or to the bottom.
+
+If your rolled over tasks are usually unimportant stragglers - select "bottom". If your rolled over tasks are usually important things you didn't get to - select "top".
+
+When tasks are sorted chronologically, all unscheduled tasks will be moved to the top or bottom based on this setting as well.
+
+#### Workload threshold
+
+Configure your desired workload for each day. When your daily workload gets close or exceeds this number of hours, you'll see your workload threshold change color and Sunsama will warn you that you are overcommitted.
+
+Select "Custom by day" if you want to configure a different threshold for each day of the week.
+
+The workload threshold only counts tasks that are in your "work" contexts. Anything in a personal [context](/docs/channels-and-contexts)
+ won't count against it.
+
+#### Calendar event color
+
+Determine how calendar events should be colored in the calendar view.
+
+*   **Color by channel:** to show the event in the color of it's associated channel or context or in the color of it's associated calendar if no channel is set.
+*   **Color by calendar:** to show the event in it's associated calendar color regardless of whether it's in a channel or not.
+
+#### Hide completed tasks in task list
+
+Toggle this setting on and completed tasks will disappear from view in today's task list instead of being shown under your incomplete tasks.
+
+Notes:
+
+*   This setting only hides completed tasks in today's list. All completed tasks on previous days will always show.
+*   You can reveal completed tasks by clicking the "N tasks completed" text at the bottom of your task list. This will show your completed tasks in today's list until you click "Showing completed tasks" or you refresh Sunsama.
+
+#### Hide completed tasks in calendar
+
+Toggle this setting to hide the green checkboxes that appear in the calendar view at the time a task was checked off.
+
+#### Support chat bubble
+
+Toggle the Intercom support bubble in the bottom left corner of the app.
+
+If you turn this off, you can always reach us at [support@sunsama.com.](mailto:support@sunsama.com.)
+
+#### Dark mode
+
+Show the app in dark mode. Select "System" to force Sunsama to always match your OS/Browser's Dark/Light setting.
+
+### Rituals
+
+#### When do you plan you day
+
+Select the time that your daily planning ritual will automatically appear. Times after 3 PM will cause your planning ritual to plan the [next day](/docs/evening-daily-planning)
+ and times before 3 PM will plan the current day.
+
+This also determines the time at which your daily planning reminders appear.
+
+#### Automated daily planning
+
+Determines if the daily planning ritual appears automatically on your screen once a day.
+
+If you turn it off, you can always initialize the daily planning flow via the [keyboard shortcut](/docs/keyboard-shortcuts)
+ `P`.
+
+#### Automatically rollover tasks during evening planning
+
+Note: you will only see this setting if you are an [evening daily planner](/docs/evening-daily-planning)
+.
+
+Toggle this setting on to automatically rollover incomplete tasks to tomorrow during evening daily planning (planning for tomorrow)
+
+Toggle this setting off to not automatically rollover incomplete tasks during evening planning, and instead show a prompt to optionally select any tasks you wish to automatically rollover to tomorrow.
+
+#### When do you end your day
+
+Determines your suggested daily shutdown time during daily planning.
+
+#### Automated daily shutdown
+
+Determines if the daily shutdown ritual appears automatically each day.
+
+If you turn this setting off, you can always access the [daily shutdown](/docs/daily-shutdown)
+ via it's keyboard shortcut.
+
+#### When do you plan your week
+
+Select when you want to plan for the week ahead.
+
+#### Automated Weekly Planning
+
+Determines if you should be prompted to plan your week at the time selected.
+
+If you turn this setting off, you can always access the weekly planning flow from the main dropdown menu.
+
+#### Combine weekly review and weekly planning
+
+Turn on this setting to combine your weekly review and weekly planning into one flow. If you turn this toggle on, you will not see the next two settings for weekly review, as it will be included in your weekly planning.
+
+#### When do you review your week
+
+Select when you want to review the most recent week.
+
+#### Automated weekly review
+
+Determines if you should be prompted to review each week at the scheduled time
+
+If you turn this setting off, you can always access the weekly review flow from the main dropdown menu.
+
+#### Include weekends during reviews
+
+In daily planning/reflection this determines if you will see the last day or the last work day when reviewing what happened. In weekly reflection this determines if data from weekends should be shown at all.
+
+#### Default channel for rituals tasks
+
+Set a specific channel to automatically assign to all ritual tasks (e.g. Daily Planning, Daily Shutdown, Weekly Planning, Weekly Review). This setting will also honor any relevant calendar connections. If nothing is set, ritual tasks will be assigned to your default channel if you have one.
+
+### Timeboxing
+
+#### Pick which calendars tasks are scheduled to
+
+Clicking the "Calendar Settings" button will bring you to your [calendars](/docs/integrations-settings#calendar-settings)
+, where you can set up where your working sessions are created.
+
+#### Calendar reminders for timeboxed tasks
+
+With this setting, you can manually override the reminders/notifications settings of the underlying calendar your tasks are timeboxed to. This is useful if you want to disable reminders for Sunsama tasks on a calendar in which you have reminders turned on.
+
+#### Calendar availability for timeboxed tasks
+
+Set the default "availability" when creating calendar events from an existing task i.e when timeboxing.
+
+*   **Show as busy:** If you want time spent working on tasks to show as "busy" to other people who have access to your calendar or to tools that look at your calendar to calculate your availability.
+*   **Show as available:** If you want tasks to show up on your calendar but not change your underlying calendar's understanding of your availability.
+
+#### Calendar privacy of timeboxed tasks
+
+Sets the default privacy of calendar events that are created from an existing task i.e. when timeboxing.
+
+*   **Calendar default:** This will honor whatever setting your underlying calendar uses when new events are created by default.
+*   **Private:** All timeboxed events will be marked as private upon creation. This is a good option if you don't want colleague, who have access to your calendar, to see what you are working on.
+*   **Public:** All timeboxed events will be marked as public. This is a good option if you want colleagues to always see what tasks you are working on.
+
+> ## 📘
+> 
+> Tasks assigned to private channels or personal contexts will always be added to the calendar as "Private" events for your privacy.
+
+#### Auto-scheduling gap
+
+Pick how much time the auto-scheduler should leave between the last item on your calendar and the task being scheduled. This is a great way to give yourself some breathing room between tasks.
+
+#### Default duration when scheduling tasks
+
+Determines the default size of a timeboxed event if one isn't specified by the "planned time" of the task.
+
+#### Auto-reschedule tasks when they conflict
+
+When a task is scheduled at the same as another task(s), [automatically](/docs/auto-rescheduling)
+ shift the other task(s) to the next available time.
+
+> ## 📘Auto-reschedule tip:
+> 
+> Hold `Shift` when scheduling to temporarily disable this behavior
+
+#### Auto-reschedule when a task is completed ahead of schedule
+
+When a timeboxed task is completed ahead of schedule, [automatically](/docs/auto-rescheduling)
+ adjust its scheduled end date and shift remaining tasks forward.
+
+#### Set up your working hours
+
+Set up your schedules by clicking on the "Edit Schedules" button. You can the default schedule for auto-scheduling tasks. You can also set these hours in “[Schedules](/docs/timeboxing-customizing-your-settings#schedules)
+”. These hours will be overridden by any channel-specific schedules.
+
+#### Auto-complete imported calendar events:
+
+This setting asks you if a task created from a calendar event should be automatically completed in Sunsama at the scheduled end time of the event. This setting is useful for automatically completing meetings in your task list when the meeting concludes. If you also create tasks from non-meeting events and only wish to auto-complete your meetings, the option “Only if the event has invitees” is a good choice.
+
+### Keyboard Shortcuts
+
+#### Keyboard shortcuts
+
+If you turn this off, all global [Keyboard Shortcuts](/docs/keyboard-shortcuts)
+ will be turned off. The only keyboard shortcut that will work is CMD+K to pull up the [Command Palette](/docs/command-palette)
+. Basic keyboard actions like "ESC" to close modals will continue to function.
+
+#### Global keyboard shortcuts on desktop
+
+> ## 📘Changing keyboard combination
+> 
+> You can change the combinations for the global keyboard shortcuts from their default to suite your preferences. To do so, click on the characters listed for that shortcut and enter your own combination.
+
+#### Add Task
+
+Toggle this setting to enable/disable the global keyboard shortcut for adding tasks. (`CMD/Ctrl Shift A` by default)
+
+Find more on this feature here: [https://help.sunsama.com/docs/global-add-task-keyboard-shortcut](/docs/global-add-task-keyboard-shortcut)
+
+#### Toggle focus bar timer
+
+Toggle this setting to enable/disable a shortcut that allows you to start or stop the focus bar timer (`CMD/Ctrl Shift Space` by default)
+
+#### Toggle focus bar
+
+Toggle this setting to enable/disable a shortcut that allows you to show or hide the [focus bar](/docs/focus-bar)
+ (`CMD/Ctrl Shift F` by default)
+
+### Focus Bar
+
+_Note: The focus bar requires the desktop app to be open._
+
+#### Show when focusing
+
+Show the focus bar when entering [focus mode](/docs/focus-mode)
+.
+
+#### Show when timing
+
+Show the focus bar when starting a [timer on a task](/docs/planned-and-actual-times#task-timer)
+.
+
+#### Enable timer sounds
+
+Play a sound when a timer reaches the end
+
+#### Sound
+
+Choose from the menu what sound to play
+
+#### Volume
+
+Relative volume of of the focus bar sound
+
+#### When to trigger reminder
+
+Select at what times leading up to your task timer reaching your planned time the timer sound and visual reminder should play.
+
+### Focus
+
+_Note: Break reminders require the desktop app to be open._
+
+#### Enter focus mode after starting timer
+
+Automatically enter focus mode [focus mode](/docs/focus-mode)
+ when you start the timer.
+
+#### Reminder to take breaks
+
+Automatically suggest taking a [break](/docs/breaks)
+ after working for a while. Requires the desktop app .
+
+#### Default time between breaks
+
+How long do you prefer to work before taking a break?
+
+#### Default break duration
+
+How long do you prefer your breaks to be?
+
+#### Default focus mode timer
+
+When in focus mode, do you prefer to use the default timer or the pomodoro timer?
+
+### AI
+
+#### Channel recommendations
+
+With this feature turned on, Sunsama analyzes the history of your tasks and will suggest a [channel](/docs/channels-and-contexts)
+ to assign to newly created #unassigned tasks. By default, when this feature is turned on, Sunsama will "Auto-apply" the suggested channels.
+
+![](https://files.readme.io/e836a44-Screenshot_2024-06-05_at_2.25.18_PM.png)  
+
+> ## 📘
+> 
+> Note: This feature is overridden by automatic channel assignment and only works for tasks that are #unassigned to a channel upon creation. This means if you have a default channel for newly created tasks, are filtering to view any specific channel or context when creating a task, or a channel is assigned to a new task via automations, no channel recommendation will be made.
+
+> ## 👍
+> 
+> Note: Channel recommendations does not use customer data for training purposes
+
+#### Planned time recommendations
+
+With this feature turned on, Sunsama analyzes the history of your tasks and will automatically assign an initial [planned time estimate](/docs/planned-and-actual-times#planned-time)
+ based on them.
+
+![](https://files.readme.io/61dab97-Screenshot_2024-01-11_at_3.10.25_PM.png)
+
+> ## 👍
+> 
+> Note: Planned time recommendations does not use customer data for training purposes
+
+### Profile
+
+Change your name and profile picture here.
+
+### Account Management
+
+#### Change primary email
+
+If you want to change the primary account email associated with your Sunsama account, you can use this setting to change it.
+
+In order to use this, there can not be an existing account with the email you want to change to. If you inadvertently created an account with the new email, we recommend logging in as that user and deleting the account first.
+
+#### Export my data
+
+This data export will be a CSV or JSON file that will include all tasks assigned to you for your primary workspace. The resulting CSV JSON file will include the name of the task, notes, assignee, completed and start dates, due date, subtasks, channel, and planned time.
+
+#### Delete account
+
+Delete your account and all associated information. If you are the only person in your workspace, your paid subscription will also be cancelled.
+
+#### Logout all sessions
+
+Your account will be logged out of all sessions across all devices including this one.
+
+### Mobile App Settings
+
+#### Disabled haptics
+
+Disable any haptic feedback in the app.
+
+#### RTL Mode
+
+This swaps the app into right-to-left mode. Requires a restart when toggled.
+
+This feature is experimental and may not work in 100% of cases.
+
+#### Five-minute intervals
+
+Determines if planning/actual time dials should show times in five minute or one minute increments.
+
+#### Left hand mode
+
+This makes important actions easier to reach with your thumb if you are left handed.
